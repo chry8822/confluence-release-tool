@@ -1,0 +1,17 @@
+{
+  "name": "confluence-release-tool",
+  "version": "1.0.0",
+  "description": "Confluence 릴리즈 노트 자동 업데이트 CLI 도구",
+  "main": "release.js",
+  "bin": {
+    "confluence-release": "./release.js"
+  },
+  "scripts": {
+    "start": "node release.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.4.0",
+    "axios": "^1.8.3",
+    "chalk": "^4.1.2"
+  }
+}
