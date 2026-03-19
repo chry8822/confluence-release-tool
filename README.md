@@ -76,13 +76,25 @@ const PROJECTS = [
 
 ## 설치
 
-```bash
-# 로컬 폴더에서 글로벌 설치
-npm install -g .
+### 1. 레포 클론
 
-# 또는 Git 레포에서 설치
-npm install -g git+https://github.com/your-username/confluence-release-tool.git
+```bash
+git clone https://github.com/your-username/confluence-release-tool.git
+cd confluence-release-tool
 ```
+
+### 2. 글로벌 설치
+
+클론한 폴더 안에서 아래 명령어를 실행합니다.
+
+```bash
+npm install -g .
+```
+
+> Git URL로 직접 설치하는 경우 클론 없이 아래 명령어 한 줄로도 설치 가능합니다.
+> ```bash
+> npm install -g git+https://github.com/your-username/confluence-release-tool.git
+> ```
 
 ---
 
