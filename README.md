@@ -1,5 +1,7 @@
 # confluence-release-tool
 
+* config 값이 없는 레포로 기본값으로 설정된 상태입니다. (사용하려면 config 설정이 필요합니다)
+
 Confluence 릴리즈 노트 자동 업데이트 CLI 도구
 
 GitLab 태그 기준으로 밀린 버전을 자동 감지하고, Confluence 히스토리 페이지에 기록합니다.
