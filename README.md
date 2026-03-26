@@ -93,7 +93,7 @@ npm install -g .
 
 > Git URL로 직접 설치하는 경우 클론 없이 아래 명령어 한 줄로도 설치 가능합니다.
 > ```bash
-> npm install -g git+https://github.com/your-username/confluence-release-tool.git
+> npm install -g git+https://github.com/chry8822/confluence-release-tool.git
 > ```
 
 ---
